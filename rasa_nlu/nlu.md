@@ -1,0 +1,359 @@
+## lookup:palavrao
+   ./rasa_nlu/palavrao.txt
+
+## lookup:setor
+   ./rasa_nlu/setor.txt
+
+## intent:greet
+- Como vai?
+- Como vai você?
+- E aí
+- E aí!
+- E aí, beleza?
+- E aí, como vai?
+- E aí, Nestor? 
+- Prazer, Nestor!
+- É um prazer te conhecer
+- [Oi](saudacao)
+- [Oi](saudacao), e ai?
+- [oi](saudacao), e ai?
+- [Oi](saudacao) tranquilo?
+- [oi](saudacao) tranquilo?
+- [Oi](saudacao)!
+- [oi](saudacao)!
+- [Oi](saudacao), Nestor!
+- [oi](saudacao), Nestor!
+- [Oi](saudacao), prazer em conhecê-lo
+- [oi](saudacao), como vai?
+- [Oi](saudacao) Nestor, tudo bem?
+- [oi](saudacao), tudo bom?
+- [Olá](saudacao)
+- [olá](saudacao)
+- [Olá]!
+- [Olá](saudacao), como vai?
+- [olá](saudacao), como vai?
+- [olá]!
+- [Ola](saudacao)
+- [ola](saudacao)
+- [Olá](saudacao) Nestor, como vai?
+- [olá](saudacao) Nestor, como vai?
+- [Olá](saudacao) Nestor, e ai?
+- [olá](saudacao) Nestor, e ai?
+- [ola](saudacao), prazer
+- [Olá](saudacao) Nestor, tudo bem?
+- [olá](saudacao), Nestor
+- Opa, Nestor
+- [ola](saudacao)
+- [olá]!
+- [olá](saudacao)
+- [ola](saudacao)!
+- [Olá](saudacao), Nestor!
+- Opa, Nestor!
+- [ola](saudacao)!
+- [Olá](saudacao), Nestor!
+- Prazer em conhecê-lo
+- [Saudações](saudacao)
+- [oi](saudacao), tudo bem?
+- Tudo bem?
+- Tudo bem, Nestor?
+- Tudo tranquilo?
+- Tudo bom?
+
+## intent:servico
+- [atendimento](setor)
+- [onde fica](setor)
+- [cursos](setor)
+- [coordenação](setor)
+- [atendimento](setor)?
+- [onde fica](setor)?
+- [cursos](setor)?
+- [coordenação](setor)?
+- Quero falar com o [atendimento](setor)
+- Quero falar com o [cursos](setor)
+- Quero falar com o [coordenação](setor)
+- agora quero falar com o [atendimento](setor)
+- agora quero falar com o [cursos](setor)
+- agora quero falar com o [coordenação](setor)
+- Quero saber sobre [atendimento](setor)
+- Quero saber sobre [cursos](setor)
+- Qual o contato do [atendimento](setor)?
+- Qual o contato do [coordenação](setor)?
+- como faço pra falar com o [atendimento](setor)?
+- como faço pra falar com a [coordenação](setor)?
+- quero ajuda do [atendimento](setor) agora
+- quero ajuda com [atendimento](setor)
+- agora preciso da ajuda do [atendimento](setor)
+- preciso entrar em contato com o [atendimento](setor) agora
+- preciso entrar em contato com o [coordenação](setor) agora
+- quero entrar em contato com o [atendimento](setor)
+- Gostaria de saber [onde fica](setor)
+- Gostaria de saber sobre [cursos](setor)
+- Gostaria de saber sobre o [atendimento](setor)
+- Gostaria de saber sobre o [cursos](setor)
+- Me conta sobre [atendimento](setor)
+- Me conta sobre [cursos](setor)
+- Me conta sobre [coordenação](setor)
+- Me conta [onde fica](setor)
+- Me conta [cursos](setor)
+- posso falar com o [atendimento](setor)
+- Diz [onde fica](setor)
+- Diz [cursos](setor)
+
+## intent:ofensa
+- [caralho](palavrao)
+- que [caralho](palavrao)!
+- [krl](palavrao)
+- filho da [puta](palavrao)
+- [foda-se](palavrao)
+- [foda se](palavrao)
+- filha da [puta](palavrao)!
+- que [merda](palavrao) é essa
+- seu [merda](palavrao) 
+- [merda](palavrao)
+- [porra](palavrao)
+- que [porra](palavrao) é essa
+- [pqp](palavrao)
+- mas que [porra](palavrao)
+- sua [vagabunda](palavrao)
+- sua [vagabunda](palavrao)
+- [vagabunda](palavrao)
+- seu [vagabundo](palavrao)
+- [vagabundo](palavrao)
+- quero mais que você se [foda](palavrao)
+- vai se [foder](palavrao)
+- vai se [fuder](palavrao)
+- vsf, seu filho da [puta](palavrao)
+- seu [bosta](palavrao)
+- [bosta](palavrao)
+- [vsf](palavrao)
+- vai tomar no [cu](palavrao)
+- vai tomar no [cú](palavrao)
+- [cuzao](palavrao)
+- seu [cuzao](palavrao)
+- tu é um [cuzao](palavrao)
+- [foda](palavrao)
+- [cú](palavrao)
+- teu [cú](palavrao)
+- que [cú](palavrao)
+- seu [bicha](palavrao)
+- [bicha](palavrao)
+- [bixa](palavrao)
+- [cassete](palavrao)
+- [viado](palavrao)
+- [veado](palavrao)
+- que [porra](palavrao) é essa?
+- que [caralhos](palavrao) é isso?
+- não [fode](palavrao)
+- [carai](palavrao)
+- de cair o [cu](palavrao) da bunda
+- não ajudou em [porra](palavrao) nenhuma
+- vai tomar no teu cu, [porra](palavrao)
+- que [bosta](palavrao)
+- tu é um [bosta](palavrao)
+- krl [vsf](palavrao)
+- vai se fuder seu [viado]
+- [porra](palavrao), não me fode
+- não me [fode](palavrao)
+- eu sou [foda](palavrao)
+- seu [merda](palavrao)
+- [arrombado](palavrao)
+- seu [arrombado](palavrao)
+- [fdp](palavrao)
+- [krl](palavrao)
+- [f.d.p](palavrao)
+- [f.d.p.](palavrao)
+- [karalho](palavrao)
+
+## intent:goodbye
+- Obrigado
+- Obrigado!
+- obrigada
+- obrigada!
+- [Tchau](despedida)
+- [chau](despedida)
+- [chau](despedida)!
+- brigada, [tchau](despedida)
+- obrigada, [tchau](despedida)!
+- obrigada, [tchau](despedida)
+- obrigado, [tchau](despedida)!
+- [Tchau](despedida)!
+- Ajudou muito, obrigado
+- Ajudou muito
+- Por enquanto é só
+- Respondo depois
+- É só isso mesmo
+- É só
+- Nos vemos por aí
+- Depois conversamos
+- Qualquer coisa, te chamo de novo
+- Entendi, obrigado
+- Tendi
+- [até](despedida)
+- [ate](despedida) 
+- [Até](despedida)
+- [Ate](despedida)
+- é só, [até mais](despedida)
+- é só [ate mais](despedida) 
+- [Até mais](despedida)
+- [Ate mais](despedida)
+- [Até](despedida) a próxima
+- [Até](despedida) a próxima!
+- [Até](despedida) logo
+- [ate](despedida), obrigado
+- [Até](despedida) mais!
+- [até](despedida) mais!
+- [ate](despedida) mais
+- [Até](despedida) mais
+- [Xau](despedida), vlw!
+- vlw, [xau](despedida)!
+- brigado, [Xau](despedida)
+- brigada, [xau](despedida)!
+- obrigado, [Xau](despedida)
+- obrigada, [xau](despedida)!
+- obg, [tchau](despedida)
+- obg, [xau](despedida)
+- vlw, [até mais](despedida)
+- blz, [até mais](despedida)
+- valeu, [até mais](despedida)
+- valeu, [tchau](despedida)!
+- [Xau](despedida) 
+- falou, até mais
+- ok, [tchau](despedida)
+- bye
+- tchauzinho
+- [xau](despedida)
+- [Xau](despedida)
+- [xau](despedida)!
+- [Xau](despedida)!
+- [xau](despedida), obrigado
+- [xau](despedida), obrigada!
+- obrigada, vlw
+- obrigado, vlw
+- Valeu
+- vlw 
+- obg
+- blz
+- Valeu!
+- Obrigado
+- ok, obrigado!
+- ok, até mais!
+- [adeus](despedida)
+- [adeus](despedida)!
+
+## intent:cursos
+- [GP](area)
+- [GE](area)
+- [GP](area)
+- [LOG](area)
+- [SI](area)
+- [Gestão Portuária](area)
+- [Gestão Empresarial](area)
+- [Análise e Desenvolvimento de Sistemas](area)
+- [Logística](area)
+- [Sistemas para Internet](area)
+- Posso falar com [GP](area)
+- Posso falar com [GE](area)
+- Posso falar com [GP](area)
+- Posso falar com [LOG](area)
+- Posso falar com [SI](area)
+- Posso falar com [Gestão Portuária](area)
+- Posso falar com [Gestão Empresarial](area)
+- Posso falar com [Análise e Desenvolvimento de Sistemas](area)
+- Posso falar com [Logística](area)
+- Posso falar com [Sistemas para Internet](area)
+- Gostaria de saber sobre [GP](area)
+- Gostaria de saber sobre [GE](area)
+- Gostaria de saber sobre [GP](area)
+- Gostaria de saber sobre [LOG](area)
+- Gostaria de saber sobre [SI](area)
+- Gostaria de saber sobre [Gestão Portuária](area)
+- Gostaria de saber sobre [Gestão Empresarial](area)
+- Gostaria de saber sobre [Análise e Desenvolvimento de Sistemas](area)
+- Gostaria de saber sobre [Logística](area)
+- Gostaria de saber sobre [Sistemas para Internet](area)
+- O que é [GP](area)?
+- O que é [GE](area)?
+- O que é [GP](area)?
+- O que é [LOG](area)?
+- O que é [SI](area)?
+- O que é [Gestão Portuária](area)
+- O que é [Gestão Empresarial](area)
+- O que é [Análise e Desenvolvimento de Sistemas](area)
+- O que é [Logística](area)
+- O que é [Sistemas para Internet](area)
+- Conte-me mais sobre [Gestão Portuária](area)
+- Conte-me mais sobre [Gestão Empresarial](area)
+- Conte-me mais sobre [Análise e Desenvolvimento de Sistemas](area)
+- Conte-me mais sobre [Logística](area)
+- Conte-me mais sobre [Sistemas para Internet](area)
+- Conte-me mais sobre [GP](area)?
+- Conte-me mais sobre [GE](area)?
+- Conte-me mais sobre [GP](area)?
+- Conte-me mais sobre [LOG](area)?
+- Conte-me mais sobre [SI](area)?
+- Diga-me sobre [GP](area)
+- Diga-me sobre [GE](area)
+- Diga-me sobre [GP](area)
+- Diga-me sobre [LOG](area)
+- Diga-me sobre [SI](area)
+- Diga-me sobre [Gestão Portuária](area)
+- Diga-me sobre [Gestão Empresarial](area)
+- Diga-me sobre [Análise e Desenvolvimento de Sistemas](area)
+- Diga-me sobre [Logística](area)
+- Diga-me sobre [Sistemas para Internet](area)
+
+## synonym:Gestão Portuária
+- gestao portuaria
+- gestao portuaria
+- guestao portuaria
+
+## synonym:Gestão Empresarial
+- gestao empresarial 
+- gestao empresarial 
+- guestao empresarial
+
+## synonym:Logística
+- logistica
+- logitica
+
+## synonym:olá
+- olar
+- pla
+- olah
+
+## synonym:oi
+- oiii
+- oii
+- oie
+- oieee
+
+## synonym:atendimento
+- atendimemto
+- atendimeto
+- atemdimento
+- atndimento
+
+## synonym:filho da puta
+- pulta
+- p00ta
+- puta
+- fdp
+- f.d.p
+- f.d.p.
+- fi da puta
+- fidaputa
+
+## synonym:caralho
+- karalho
+- krl
+- krlh
+- caralhow
+- c@r@lh0w
+
+## synonym:vagabundo
+- vagabunda
+
+##synonym foder
+- fuder
+- fulder
+- f0d3r

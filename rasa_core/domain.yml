@@ -1,0 +1,137 @@
+intents:
+  - servico
+  - goodbye: {use_entities: false}
+  - greet: {use_entities: false}
+  - ofensa: {use_entities: false}
+  - cursos
+
+entities:
+  - setor
+  - area
+  - saudacao
+  - palavrao
+  - despedida
+
+actions:
+  - utter_servico_atendimento
+  - utter_servico_ondefica
+  - utter_servico_cursos
+  - utter_servico_coordenacao
+  - utter_GE
+  - utter_GP
+  - utter_ADS
+  - utter_LOG
+  - utter_SI
+  - utter_greet
+  - utter_greet_cursos
+  - utter_ofensa
+  - utter_goodbye
+  - utter_default
+  - action_check_servico
+  - action_check_cursos
+
+slots:
+  setor:
+    type: categorical
+    values:
+      - atendimento
+      - onde fica
+      - cursos
+      - coordenação 
+  area:
+    type: categorical
+    values:
+      - gestão portuária
+      - gestão empresarial
+      - análise e desenvolvimento de sistemas
+      - logística
+      - sistemas para internet
+
+templates:
+  utter_greet:
+    - text: "Oi, eu sou o FateBOT! Eu posso te ajudar com: "
+      buttons:
+      - title: "atendimento"
+        payload: "atendimento"
+      - title: "onde fica" 
+        payload: "onde fica" 
+      - title: "cursos" 
+        payload: "cursos"
+      - title: "coordenação"
+        payload: "coordenação"
+  utter_greet_cursos:
+    - text: "Oi, eu sou o FateBOT! Você quer saber sobre: "
+      buttons:
+      - title: "Análise e Desenvolvimento de Sistemas"
+        payload: "análise e desenvolvimento de sistemas"
+      - title: "Sistemas para Internet"
+        payload: "sistemas para internet" 
+      - title: "Gestão Portuária" 
+        payload: "gestão portuária"
+      - title: "Gestão Empresarial"
+        payload: "gestão empresarial" 
+      - title: "Logística"
+        payload: "logística" 
+  utter_ofensa:
+    - Desculpa, não vou reproduzir
+  utter_default:
+    - "Desculpa, eu não consegui entender, ainda estou aprendendo."
+  utter_goodbye:
+    - Nos vemos na próxima!
+    - Obrigado, até mais!
+  utter_servico_atendimento:
+    - text: "O atendimento é de segunda a sexta das 9h às 22h. O telefone é (13) 3227-6003"
+      buttons:
+      - title: "atendimento"
+        payload: "atendimento"
+      - title: "onde fica" 
+        payload: "onde fica" 
+      - title: "cursos" 
+        payload: "cursos"
+      - title: "coordenação"
+        payload: "coordenação"
+  utter_servico_ondefica:
+    - text: "A FatecRL fica na Av. Bartolomeu de Gusmão, 110 - Aparecida - Santos-SP, 11045-908"
+      buttons:
+      - title: "atendimento"
+        payload: "atendimento"
+      - title: "onde fica"
+        payload: "onde fica" 
+      - title: "cursos" 
+        payload: "cursos"
+      - title: "coordenação"
+        payload: "coordenação"
+  utter_servico_cursos:
+    - text: "A FatecRL oferece os seguintes cursos:"
+      buttons:
+      - title: "Análise e Desenvolvimento de Sistemas"
+        payload: "análise e desenvolvimento de sistemas"
+      - title: "Sistemas para Internet"
+        payload: "sistemas para internet" 
+      - title: "Gestão Portuária" 
+        payload: "gestão portuária"
+      - title: "Gestão Empresarial"
+        payload: "gestão empresarial" 
+      - title: "Logística"
+        payload: "logística" 
+  utter_ADS:
+    - Desenvolva, implemente e gerencie softwares atendendo as demandas do mercado.
+  utter_GE:
+    - Implemente planos de negócios, gerencie recursos financeiros e humanos.
+  utter_GP:
+    - Administre operações de transportes marítimos, comércio exterior e ambiental.
+  utter_LOG:
+    - Coordene atividades em redes de distribuição, transporte e indústrias das mais diversas.
+  utter_SI:
+    - Construa sites, aplicações web e mobile de forma elegante, acessível e segura
+  utter_servico_coordenacao:
+    - text: "os emails são ADS: valdir.tobias01@fatec.sp.gov.br, GE: ramon.torre@fatec.sp.gov.br, GP: julio.raymundo2@fatec.sp.gov.br, LOG: ruyaccioly@fatec.sp.gov.br, SI: rosana.cammarosano@fatec.sp.gov.br"
+      buttons:
+      - title: "atendimento"
+        payload: "atendimento"
+      - title: "onde fica"
+        payload: "onde fica" 
+      - title: "cursos" 
+        payload: "cursos"
+      - title: "coordenação"
+        payload: "coordenação"

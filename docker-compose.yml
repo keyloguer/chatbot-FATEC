@@ -1,0 +1,74 @@
+version: '3.1'
+networks:
+  websocket-network:
+    driver: bridge
+services:
+  rasa1:
+    build: .
+    volumes:
+      - .:/app
+    command: bash app.sh
+    ports:
+      - 5005:5005
+  rasa_actions1:
+    build: .
+    volumes:
+      - .:/app
+    command: bash actions.sh
+    ports:
+      - 5055:5055
+  # backend:
+  #   build: ./backend
+  #   command: bash app.sh
+  #   volumes:
+  #     - ./backend:/code
+  #   environment:
+  #     PIKA_HOST: "192.168.99.100"
+  #     PIKA_PORT: "5672"
+  #     PIKA_USERNAME: guest
+  #     PIKA_PASSWORD: guest
+  #   ports:
+  #     - '8000:8000'
+      
+  # frontend:
+  #   build: ./chatire-frontend
+  #   command: sh app.sh
+  #   volumes:
+  #     - ./chatire-frontend:/to-do-app
+  #   ports:
+  #     - 4200:4200
+
+  # rabbit1:
+  #   image: 'rabbitmq:3-management'
+  #   environment:
+  #     RABBITMQ_ERLANG_COOKIE: 'SWQOKODSQALRPCLNMEQG'
+  #     RABBITMQ_DEFAULT_USER: 'guest'
+  #     RABBITMQ_DEFAULT_PASS: 'guest'
+  #     RABBITMQ_DEFAULT_VHOST: '/'
+  #   ports:
+  #     - 15672:15672
+  #     - 5672:5672
+  #   networks:
+  #     - websocket-network
+
+  # websocket:
+  #   build: ./websocket
+  #   command: bash websocket.sh
+  #   ports:
+  #     - 8081:8081
+  #   environment:
+  #     PIKA_HOST: '192.168.99.100'
+  #     PIKA_PORT: 5672
+  #     RASA_HOST: 'http://192.168.99.100'
+  #     RASA_PORT: '5005'
+  #     RABBITMQ_DEFAULT_USER: 'guest'
+  #     RABBITMQ_DEFAULT_PASS: 'guest'
+  #   restart: always
+  #   depends_on:
+  #     - rabbit1
+  #   networks:
+  #     - websocket-network
+  #   volumes:
+  #     - ./websocket:/websocket
+
+  

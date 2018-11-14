@@ -1,0 +1,147 @@
+%YAML 1.1
+---
+actions:
+- utter_servico_atendimento
+- utter_servico_ondefica
+- utter_servico_cursos
+- utter_servico_coordenacao
+- utter_GE
+- utter_GP
+- utter_ADS
+- utter_LOG
+- utter_SI
+- utter_greet
+- utter_greet_cursos
+- utter_ofensa
+- utter_goodbye
+- utter_default
+- action_check_servico
+- action_check_cursos
+config:
+  store_entities_as_slots: true
+entities:
+- setor
+- area
+- saudacao
+- palavrao
+- despedida
+intents:
+- servico:
+    use_entities: true
+- cursos:
+    use_entities: true
+- goodbye:
+    use_entities: false
+- ofensa:
+    use_entities: false
+- greet:
+    use_entities: false
+slots:
+  area:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - gestão portuária
+    - gestão empresarial
+    - análise e desenvolvimento de sistemas
+    - logística
+    - sistemas para internet
+  setor:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - atendimento
+    - onde fica
+    - cursos
+    - coordenação
+templates:
+  utter_ADS:
+  - text: Desenvolva, implemente e gerencie softwares atendendo as demandas do mercado.
+  utter_GE:
+  - text: Implemente planos de negócios, gerencie recursos financeiros e humanos.
+  utter_GP:
+  - text: Administre operações de transportes marítimos, comércio exterior e ambiental.
+  utter_LOG:
+  - text: Coordene atividades em redes de distribuição, transporte e indústrias das
+      mais diversas.
+  utter_SI:
+  - text: Construa sites, aplicações web e mobile de forma elegante, acessível e segura
+  utter_default:
+  - text: Desculpa, eu não consegui entender, ainda estou aprendendo.
+  utter_goodbye:
+  - text: Nos vemos na próxima!
+  - text: Obrigado, até mais!
+  utter_greet:
+  - buttons:
+    - payload: atendimento
+      title: atendimento
+    - payload: onde fica
+      title: onde fica
+    - payload: cursos
+      title: cursos
+    - payload: coordenação
+      title: coordenação
+    text: 'Oi, eu sou o FateBOT! Eu posso te ajudar com: '
+  utter_greet_cursos:
+  - buttons:
+    - payload: análise e desenvolvimento de sistemas
+      title: Análise e Desenvolvimento de Sistemas
+    - payload: sistemas para internet
+      title: Sistemas para Internet
+    - payload: gestão portuária
+      title: Gestão Portuária
+    - payload: gestão empresarial
+      title: Gestão Empresarial
+    - payload: logística
+      title: Logística
+    text: 'Oi, eu sou o FateBOT! Você quer saber sobre: '
+  utter_ofensa:
+  - text: Desculpa, não vou reproduzir
+  utter_servico_atendimento:
+  - buttons:
+    - payload: atendimento
+      title: atendimento
+    - payload: onde fica
+      title: onde fica
+    - payload: cursos
+      title: cursos
+    - payload: coordenação
+      title: coordenação
+    text: O atendimento é de segunda a sexta das 9h às 22h. O telefone é (13) 3227-6003
+  utter_servico_coordenacao:
+  - buttons:
+    - payload: atendimento
+      title: atendimento
+    - payload: onde fica
+      title: onde fica
+    - payload: cursos
+      title: cursos
+    - payload: coordenação
+      title: coordenação
+    text: 'os emails são ADS: valdir.tobias01@fatec.sp.gov.br, GE: ramon.torre@fatec.sp.gov.br,
+      GP: julio.raymundo2@fatec.sp.gov.br, LOG: ruyaccioly@fatec.sp.gov.br, SI: rosana.cammarosano@fatec.sp.gov.br'
+  utter_servico_cursos:
+  - buttons:
+    - payload: análise e desenvolvimento de sistemas
+      title: Análise e Desenvolvimento de Sistemas
+    - payload: sistemas para internet
+      title: Sistemas para Internet
+    - payload: gestão portuária
+      title: Gestão Portuária
+    - payload: gestão empresarial
+      title: Gestão Empresarial
+    - payload: logística
+      title: Logística
+    text: 'A FatecRL oferece os seguintes cursos:'
+  utter_servico_ondefica:
+  - buttons:
+    - payload: atendimento
+      title: atendimento
+    - payload: onde fica
+      title: onde fica
+    - payload: cursos
+      title: cursos
+    - payload: coordenação
+      title: coordenação
+    text: A FatecRL fica na Av. Bartolomeu de Gusmão, 110 - Aparecida - Santos-SP,
+      11045-908

@@ -1,0 +1,3170 @@
+{
+  "rasa_nlu_data": {
+    "lookup_tables": [
+      {
+        "elements": "./rasa_nlu/palavrao.txt",
+        "name": "palavrao"
+      },
+      {
+        "elements": "./rasa_nlu/setor.txt",
+        "name": "setor"
+      }
+    ],
+    "regex_features": [],
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Como vai?"
+      },
+      {
+        "intent": "greet",
+        "text": "Como vai você?"
+      },
+      {
+        "intent": "greet",
+        "text": "E aí"
+      },
+      {
+        "intent": "greet",
+        "text": "E aí!"
+      },
+      {
+        "intent": "greet",
+        "text": "E aí, beleza?"
+      },
+      {
+        "intent": "greet",
+        "text": "E aí, como vai?"
+      },
+      {
+        "intent": "greet",
+        "text": "E aí, Nestor?"
+      },
+      {
+        "intent": "greet",
+        "text": "Prazer, Nestor!"
+      },
+      {
+        "intent": "greet",
+        "text": "É um prazer te conhecer"
+      },
+      {
+        "intent": "greet",
+        "text": "Oi",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Oi, e ai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "oi, e ai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Oi tranquilo?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "oi tranquilo?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Oi!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "oi!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Oi, Nestor!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "oi, Nestor!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Oi, prazer em conhecê-lo",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "oi, como vai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Oi Nestor, tudo bem?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "oi, tudo bom?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Olá",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "olá",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "[Olá]!"
+      },
+      {
+        "intent": "greet",
+        "text": "Olá, como vai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "olá, como vai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "[olá]!"
+      },
+      {
+        "intent": "greet",
+        "text": "Ola",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Ola",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "ola",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "ola",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Olá Nestor, como vai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "olá Nestor, como vai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Olá Nestor, e ai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "olá Nestor, e ai?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "ola, prazer",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "ola",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Olá Nestor, tudo bem?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "olá, Nestor",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Opa, Nestor"
+      },
+      {
+        "intent": "greet",
+        "text": "ola",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "ola",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "[olá]!"
+      },
+      {
+        "intent": "greet",
+        "text": "olá",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "ola!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "ola",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Olá, Nestor!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Opa, Nestor!"
+      },
+      {
+        "intent": "greet",
+        "text": "ola!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "ola",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Olá, Nestor!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Olá",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Prazer em conhecê-lo"
+      },
+      {
+        "intent": "greet",
+        "text": "Saudações",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "Saudações",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "oi, tudo bem?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "saudacao",
+            "value": "oi",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "greet",
+        "text": "Tudo bem?"
+      },
+      {
+        "intent": "greet",
+        "text": "Tudo bem, Nestor?"
+      },
+      {
+        "intent": "greet",
+        "text": "Tudo tranquilo?"
+      },
+      {
+        "intent": "greet",
+        "text": "Tudo bom?"
+      },
+      {
+        "intent": "servico",
+        "text": "atendimento",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "onde fica",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "onde fica",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "cursos",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "coordenação",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "atendimento?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "onde fica?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "onde fica",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "cursos?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "coordenação?",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Quero falar com o atendimento",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 29
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Quero falar com o cursos",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 24
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Quero falar com o coordenação",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 29
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "agora quero falar com o atendimento",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 35
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "agora quero falar com o cursos",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 30
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "agora quero falar com o coordenação",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 35
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Quero saber sobre atendimento",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 29
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Quero saber sobre cursos",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 24
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Qual o contato do atendimento?",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 29
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Qual o contato do coordenação?",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 29
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "como faço pra falar com o atendimento?",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 37
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "como faço pra falar com a coordenação?",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 37
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "quero ajuda do atendimento agora",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "quero ajuda com atendimento",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 27
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "agora preciso da ajuda do atendimento",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 37
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "preciso entrar em contato com o atendimento agora",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 43
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "preciso entrar em contato com o coordenação agora",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 43
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "quero entrar em contato com o atendimento",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 41
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Gostaria de saber onde fica",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "onde fica",
+            "end": 27
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Gostaria de saber sobre cursos",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 30
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Gostaria de saber sobre o atendimento",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 37
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Gostaria de saber sobre o cursos",
+        "entities": [
+          {
+            "start": 26,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 32
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Me conta sobre atendimento",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Me conta sobre cursos",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 21
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Me conta sobre coordenação",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "setor",
+            "value": "coordenação",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Me conta onde fica",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "setor",
+            "value": "onde fica",
+            "end": 18
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Me conta cursos",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 15
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "posso falar com o atendimento",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "setor",
+            "value": "atendimento",
+            "end": 29
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Diz onde fica",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "setor",
+            "value": "onde fica",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "servico",
+        "text": "Diz cursos",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "setor",
+            "value": "cursos",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "caralho",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "caralho",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "que caralho!",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "caralho",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "krl",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "krl",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "filho da puta",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "palavrao",
+            "value": "puta",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "foda-se",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "foda-se",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "foda se",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "foda se",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "filha da puta!",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "palavrao",
+            "value": "puta",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "que merda é essa",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "merda",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "seu merda",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "merda",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "merda",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "merda",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "porra",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "porra",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "que porra é essa",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "porra",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "pqp",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "pqp",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "mas que porra",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "palavrao",
+            "value": "porra",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "sua vagabunda",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "vagabunda",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "sua vagabunda",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "vagabunda",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vagabunda",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "vagabunda",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "seu vagabundo",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "vagabundo",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vagabundo",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "vagabundo",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "quero mais que você se foda",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "palavrao",
+            "value": "foda",
+            "end": 27
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vai se foder",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "palavrao",
+            "value": "foder",
+            "end": 12
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vai se fuder",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "palavrao",
+            "value": "fuder",
+            "end": 12
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vsf, seu filho da puta",
+        "entities": [
+          {
+            "start": 18,
+            "entity": "palavrao",
+            "value": "puta",
+            "end": 22
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "seu bosta",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "bosta",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "bosta",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "bosta",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vsf",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "vsf",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vai tomar no cu",
+        "entities": [
+          {
+            "start": 13,
+            "entity": "palavrao",
+            "value": "cu",
+            "end": 15
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vai tomar no cú",
+        "entities": [
+          {
+            "start": 13,
+            "entity": "palavrao",
+            "value": "cú",
+            "end": 15
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "cuzao",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "cuzao",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "seu cuzao",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "cuzao",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "tu é um cuzao",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "palavrao",
+            "value": "cuzao",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "foda",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "foda",
+            "end": 4
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "cú",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "cú",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "teu cú",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "cú",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "que cú",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "cú",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "seu bicha",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "bicha",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "bicha",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "bicha",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "bixa",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "bixa",
+            "end": 4
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "cassete",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "cassete",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "viado",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "viado",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "veado",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "veado",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "que porra é essa?",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "porra",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "que caralhos é isso?",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "caralhos",
+            "end": 12
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "não fode",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "fode",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "carai",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "carai",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "de cair o cu da bunda",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "palavrao",
+            "value": "cu",
+            "end": 12
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "não ajudou em porra nenhuma",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "palavrao",
+            "value": "porra",
+            "end": 19
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vai tomar no teu cu, porra",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "palavrao",
+            "value": "porra",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "que bosta",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "bosta",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "tu é um bosta",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "palavrao",
+            "value": "bosta",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "krl vsf",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "vsf",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "vai se fuder seu [viado]"
+      },
+      {
+        "intent": "ofensa",
+        "text": "porra, não me fode",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "porra",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "não me fode",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "palavrao",
+            "value": "fode",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "eu sou foda",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "palavrao",
+            "value": "foda",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "seu merda",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "merda",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "arrombado",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "arrombado",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "seu arrombado",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "palavrao",
+            "value": "arrombado",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "fdp",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "fdp",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "krl",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "krl",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "f.d.p",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "f.d.p",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "f.d.p.",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "f.d.p.",
+            "end": 6
+          }
+        ]
+      },
+      {
+        "intent": "ofensa",
+        "text": "karalho",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "palavrao",
+            "value": "karalho",
+            "end": 7
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Obrigado"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Obrigado!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigada"
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigada!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tchau",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Tchau",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "chau",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "chau",
+            "end": 4
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "chau!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "chau",
+            "end": 4
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "brigada, tchau",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "despedida",
+            "value": "tchau",
+            "end": 14
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigada, tchau!",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "despedida",
+            "value": "tchau",
+            "end": 15
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigada, tchau",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "despedida",
+            "value": "tchau",
+            "end": 15
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigado, tchau!",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "despedida",
+            "value": "tchau",
+            "end": 15
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tchau!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Tchau",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Ajudou muito, obrigado"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Ajudou muito"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Por enquanto é só"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Respondo depois"
+      },
+      {
+        "intent": "goodbye",
+        "text": "É só isso mesmo"
+      },
+      {
+        "intent": "goodbye",
+        "text": "É só"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Nos vemos por aí"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Depois conversamos"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Qualquer coisa, te chamo de novo"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Entendi, obrigado"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Tendi"
+      },
+      {
+        "intent": "goodbye",
+        "text": "até",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "ate",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "ate",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Ate",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Ate",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "é só, até mais",
+        "entities": [
+          {
+            "start": 6,
+            "entity": "despedida",
+            "value": "até mais",
+            "end": 14
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "é só ate mais",
+        "entities": [
+          {
+            "start": 5,
+            "entity": "despedida",
+            "value": "ate mais",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até mais",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Até mais",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Ate mais",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Ate mais",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até a próxima",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até a próxima!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até logo",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "ate, obrigado",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "ate",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até mais!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "até mais!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "ate mais",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "ate",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Até mais",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Até",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Xau, vlw!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "vlw, xau!",
+        "entities": [
+          {
+            "start": 5,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "brigado, Xau",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "despedida",
+            "value": "Xau",
+            "end": 12
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "brigada, xau!",
+        "entities": [
+          {
+            "start": 9,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 12
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigado, Xau",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "despedida",
+            "value": "Xau",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigada, xau!",
+        "entities": [
+          {
+            "start": 10,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obg, tchau",
+        "entities": [
+          {
+            "start": 5,
+            "entity": "despedida",
+            "value": "tchau",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obg, xau",
+        "entities": [
+          {
+            "start": 5,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 8
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "vlw, até mais",
+        "entities": [
+          {
+            "start": 5,
+            "entity": "despedida",
+            "value": "até mais",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "blz, até mais",
+        "entities": [
+          {
+            "start": 5,
+            "entity": "despedida",
+            "value": "até mais",
+            "end": 13
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "valeu, até mais",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "despedida",
+            "value": "até mais",
+            "end": 15
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "valeu, tchau!",
+        "entities": [
+          {
+            "start": 7,
+            "entity": "despedida",
+            "value": "tchau",
+            "end": 12
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Xau",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "falou, até mais"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok, tchau",
+        "entities": [
+          {
+            "start": 4,
+            "entity": "despedida",
+            "value": "tchau",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "tchauzinho"
+      },
+      {
+        "intent": "goodbye",
+        "text": "xau",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Xau",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "xau!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "Xau!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "Xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "xau, obrigado",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "xau, obrigada!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "xau",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigada, vlw"
+      },
+      {
+        "intent": "goodbye",
+        "text": "obrigado, vlw"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Valeu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "vlw"
+      },
+      {
+        "intent": "goodbye",
+        "text": "obg"
+      },
+      {
+        "intent": "goodbye",
+        "text": "blz"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Valeu!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Obrigado"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok, obrigado!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok, até mais!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "adeus",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "adeus",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "text": "adeus!",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "despedida",
+            "value": "adeus",
+            "end": 5
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "GP",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "GP",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "GE",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "GE",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "GP",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "GP",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "LOG",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "LOG",
+            "end": 3
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "SI",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "SI",
+            "end": 2
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gestão Portuária",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "Gestão Portuária",
+            "end": 16
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gestão Empresarial",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "Gestão Empresarial",
+            "end": 18
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Análise e Desenvolvimento de Sistemas",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "Análise e Desenvolvimento de Sistemas",
+            "end": 37
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Logística",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "Logística",
+            "end": 9
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Sistemas para Internet",
+        "entities": [
+          {
+            "start": 0,
+            "entity": "area",
+            "value": "Sistemas para Internet",
+            "end": 22
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com GP",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "GP",
+            "end": 18
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com GE",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "GE",
+            "end": 18
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com GP",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "GP",
+            "end": 18
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com LOG",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "LOG",
+            "end": 19
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com SI",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "SI",
+            "end": 18
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com Gestão Portuária",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "Gestão Portuária",
+            "end": 32
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com Gestão Empresarial",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "Gestão Empresarial",
+            "end": 34
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com Análise e Desenvolvimento de Sistemas",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "Análise e Desenvolvimento de Sistemas",
+            "end": 53
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com Logística",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "Logística",
+            "end": 25
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Posso falar com Sistemas para Internet",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "area",
+            "value": "Sistemas para Internet",
+            "end": 38
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre GP",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "GP",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre GE",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "GE",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre GP",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "GP",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre LOG",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "LOG",
+            "end": 27
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre SI",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "SI",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre Gestão Portuária",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "Gestão Portuária",
+            "end": 40
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre Gestão Empresarial",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "Gestão Empresarial",
+            "end": 42
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre Análise e Desenvolvimento de Sistemas",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "Análise e Desenvolvimento de Sistemas",
+            "end": 61
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre Logística",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "Logística",
+            "end": 33
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Gostaria de saber sobre Sistemas para Internet",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "area",
+            "value": "Sistemas para Internet",
+            "end": 46
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é GP?",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "GP",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é GE?",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "GE",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é GP?",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "GP",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é LOG?",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "LOG",
+            "end": 11
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é SI?",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "SI",
+            "end": 10
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é Gestão Portuária",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "Gestão Portuária",
+            "end": 24
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é Gestão Empresarial",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "Gestão Empresarial",
+            "end": 26
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é Análise e Desenvolvimento de Sistemas",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "Análise e Desenvolvimento de Sistemas",
+            "end": 45
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é Logística",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "Logística",
+            "end": 17
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "O que é Sistemas para Internet",
+        "entities": [
+          {
+            "start": 8,
+            "entity": "area",
+            "value": "Sistemas para Internet",
+            "end": 30
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre Gestão Portuária",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "Gestão Portuária",
+            "end": 36
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre Gestão Empresarial",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "Gestão Empresarial",
+            "end": 38
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre Análise e Desenvolvimento de Sistemas",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "Análise e Desenvolvimento de Sistemas",
+            "end": 57
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre Logística",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "Logística",
+            "end": 29
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre Sistemas para Internet",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "Sistemas para Internet",
+            "end": 42
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre GP?",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "GP",
+            "end": 22
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre GE?",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "GE",
+            "end": 22
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre GP?",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "GP",
+            "end": 22
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre LOG?",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "LOG",
+            "end": 23
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Conte-me mais sobre SI?",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "area",
+            "value": "SI",
+            "end": 22
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre GP",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "GP",
+            "end": 16
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre GE",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "GE",
+            "end": 16
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre GP",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "GP",
+            "end": 16
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre LOG",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "LOG",
+            "end": 17
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre SI",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "SI",
+            "end": 16
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre Gestão Portuária",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "Gestão Portuária",
+            "end": 30
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre Gestão Empresarial",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "Gestão Empresarial",
+            "end": 32
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre Análise e Desenvolvimento de Sistemas",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "Análise e Desenvolvimento de Sistemas",
+            "end": 51
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre Logística",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "Logística",
+            "end": 23
+          }
+        ]
+      },
+      {
+        "intent": "cursos",
+        "text": "Diga-me sobre Sistemas para Internet",
+        "entities": [
+          {
+            "start": 14,
+            "entity": "area",
+            "value": "Sistemas para Internet",
+            "end": 36
+          }
+        ]
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "guestao empresarial",
+          "gestao empresarial"
+        ],
+        "value": "Gestão Empresarial"
+      },
+      {
+        "synonyms": [
+          "logitica",
+          "logistica"
+        ],
+        "value": "Logística"
+      },
+      {
+        "synonyms": [
+          "atndimento",
+          "atendimemto",
+          "atendimeto",
+          "atemdimento"
+        ],
+        "value": "atendimento"
+      },
+      {
+        "synonyms": [
+          "krlh",
+          "caralhow",
+          "karalho",
+          "krl",
+          "c@r@lh0w"
+        ],
+        "value": "caralho"
+      },
+      {
+        "synonyms": [
+          "olar",
+          "pla",
+          "olah"
+        ],
+        "value": "olá"
+      },
+      {
+        "synonyms": [
+          "oie",
+          "oieee",
+          "oii",
+          "oiii"
+        ],
+        "value": "oi"
+      },
+      {
+        "synonyms": [
+          "guestao portuaria",
+          "gestao portuaria"
+        ],
+        "value": "Gestão Portuária"
+      },
+      {
+        "synonyms": [
+          "fi da puta",
+          "p00ta",
+          "fidaputa",
+          "f.d.p.",
+          "fdp",
+          "f.d.p",
+          "pulta",
+          "puta"
+        ],
+        "value": "filho da puta"
+      },
+      {
+        "synonyms": [
+          "fuder",
+          "fulder",
+          "vagabunda",
+          "f0d3r"
+        ],
+        "value": "vagabundo"
+      }
+    ]
+  }
+}

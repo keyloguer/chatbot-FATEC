@@ -1,0 +1,10 @@
+[
+    {
+        "pattern": "(?i)(\\bbaianagem\\b|\\bBaitola\\b|\\bburro\\b|\\bcagado\\b|\\bcuralho\\b|\\bcuzudo\\b|\\bfodido\\b|\\bgay\\b|\\bmondrongo\\b|\\bpiroco\\b|\\brabudao\\b|\\brachado\\b|\\bridiculo\\b|\\bsafado\\b|\\btarado\\b|\\btroucha\\b|\\bvaca\\b|\\bviad\\ão\\b|\\bxibiu\\b|\\bbiba\\b|\\bbicha\\b|\\bbichinha\\b|\\bbichona\\b|\\bboiola\\b|\\bbugre\\b|\\bcaboclo\\b|\\bcaboco\\b|\\bcafuzo\\b|\\bcarcamano\\b|\\bfilhos\\ da\\ terra\\b|\\bMacaco\\b|\\bmameluco\\b|\\bmestico\\b|\\bViado\\b|\\bCaralho\\b|\\bPorra\\b|\\bPuta\\ que\\ Pariu\\b|\\bFilho\\ da\\ puta\\b|\\bMerda\\b|\\bVai\\ tomar\\ no\\ cu\\b|\\bVai\\ se\\ foder\\b|\\bViado\\b|\\bPuta\\ Merda\\b|\\bCacete\\b|\\bcu\\b|\\bfode\\b|\\bCarai\\b|\\bPica\\b|\\bfuder\\b|\\bpau\\b|\\bpicao\\b|\\brola\\b|\\bpiroca\\b|\\bprega\\b|\\banus\\b|\\bbaitola\\b|\\bbabaca\\b|\\bbisca\\b|\\bbunda\\b|\\bcachorra\\b|\\bcoco\\b|\\bculhao\\b|\\bdemonio\\b|\\bescroto\\b|\\bestupido\\b|\\bfenda\\b|\\bfurado\\b|\\bgrelo\\b|\\bhomossexual\\b|\\bimbecil\\b|\\bnadega\\b|\\bp\\ênis\\b|\\brabao\\b|\\bretardado\\b|\\btrouxa\\b|\\bdroga\\b|\\bcabrunco\\b|\\bdesgra\\ça\\b|\\bfilho\\ de\\ uma\\ rapariga\\b|\\bsua\\ m\\ãe\\b|\\btua\\ m\\ãe\\b)",
+        "name": "palavrao"
+    },
+    {
+        "pattern": "(?i)(\\batendimento\\b|\\batendimeto\\b|\\bonde\\ fica\\b|\\bondefica\\b|\\bcursos\\b|\\bcoordena\\ç\\ão\\b)",
+        "name": "setor"
+    }
+]
