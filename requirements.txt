@@ -52,7 +52,7 @@ flask-jwt-simple==0.0.3
 python-socketio==2.0.0
 prompt_toolkit==1.0.14
 sklearn_crfsuite
-urllib3==1.22
+urllib3==1.26.5
 # test
 pytest==3.5.1
 pytest-pep8==1.0.6
